@@ -1,0 +1,14 @@
+{
+  "name": "Fanta Clan",
+  "short_name": "Fanta Clan",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1aa6e0",
+  "theme_color": "#1e48a8",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
