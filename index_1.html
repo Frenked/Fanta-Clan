@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fanta Clan</title>
+<meta name="theme-color" content="#1e48a8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Fanta Clan">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+  html,body{margin:0;height:100%;background:#1e48a8;overflow:hidden}
+  body{padding:env(safe-area-inset-top) env(safe-area-inset-right) 0 env(safe-area-inset-left);box-sizing:border-box}
+  iframe{display:block;border:0;width:100%;height:100%;background:#0f1a33}
+  #fb{position:fixed;inset:auto 0 0 0;padding:10px 16px calc(10px + env(safe-area-inset-bottom));text-align:center;font:14px system-ui,-apple-system,sans-serif;background:#f5c518;color:#13204a;display:none}
+  #fb a{color:#13204a;font-weight:700}
+</style>
+</head>
+<body>
+<iframe id="app" title="Fanta Clan" src="https://script.google.com/macros/s/AKfycbwqnEO7k_8Emhkg7UZYPo1syflU3hG2kclggYhIf_r90nv6SldR3XJCfeAX9YoEbin2Nw/exec" allow="clipboard-write"></iframe>
+<div id="fb">Il sito non si carica? <a href="https://script.google.com/macros/s/AKfycbwqnEO7k_8Emhkg7UZYPo1syflU3hG2kclggYhIf_r90nv6SldR3XJCfeAX9YoEbin2Nw/exec">Aprilo qui</a></div>
+<script>
+  /* se dopo 12 secondi la pagina non ha finito di caricare, mostra il link diretto */
+  var ok=false; document.getElementById('app').addEventListener('load',function(){ ok=true; });
+  setTimeout(function(){ if(!ok) document.getElementById('fb').style.display='block'; },12000);
+</script>
+</body>
+</html>
